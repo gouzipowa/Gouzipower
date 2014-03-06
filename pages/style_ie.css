@@ -1,0 +1,54 @@
+#main_title {
+	display: inline;
+	zoom: 1;
+}
+
+#logo, header h1 {
+	display: inline;
+	zoom : 1;
+}
+
+nav {
+	display: inline;
+	zoom: 1;
+}
+
+nav li {
+	display: inline;
+	zomm: 1;
+}
+
+.red_button {
+	display: inline;
+	zoom: 1;
+}
+
+article, aside {
+	display: inline;
+	zoom: 1;
+}
+
+.ico_category {
+	display: inline;
+	zoom: 1;
+}
+
+article .article_title_block {
+	display: inline;
+	zoom: 1;
+}
+
+#quotation, #my_pictures, #future_projects {
+	display: inline;
+	zoom: 1;
+}
+
+#future_projects ul {
+	display: inline;
+	zoom: 1;
+}
+
+fieldset legend{
+	color: white;
+}
+

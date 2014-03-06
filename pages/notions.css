@@ -1,0 +1,49 @@
+table {
+	border-collapse:collapse;	
+	margin:auto;
+}
+
+td {
+	border: 1px solid white;
+	padding: 0px 8px 0px 8px;
+}
+
+.validation_cases {
+	width:4em;
+}
+
+tr td {
+	color: red;
+	text-align:center;
+}
+
+.notions {
+	color: gray;
+}
+
+aside {
+	background-color: black;
+	border: none;
+	padding: 0px;
+}
+
+aside div {
+	display:inline-block;
+	background-color: gray;
+	border: 3px outset white;
+	border-radius: 5px;
+	width: 25em;
+	padding: 8px;
+	text-align:center;
+}
+
+aside div label {
+	display: inline-block;
+}
+#video_section {
+	margin-bottom: 20px;
+}
+
+#music_section audio {
+	width: 24em;
+}

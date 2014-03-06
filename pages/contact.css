@@ -1,0 +1,35 @@
+fieldset p{
+	position: relative;
+	margin-right: 1em;
+}
+
+textarea {
+	width: 58em;
+	height: 41.1em;
+	display:inline-block;
+}
+
+.input_size {
+	width: 100%;
+	display: inline-block;
+}
+
+#personnal_info_display div {
+	display:inline-block;
+	width: 22em;
+	padding: 8px;
+}
+
+#general_info_display {
+	margin-bottom: 8px;
+}
+#general_info_display div {
+	display:inline-block;
+	padding: 8px;
+	width: 22em;
+}
+
+#sending_message_display div {
+	display:inline-block;
+	position:relative;
+}

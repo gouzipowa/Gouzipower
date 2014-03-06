@@ -1,0 +1,15 @@
+#formation, #skills, #professional_experience, #hobbies {
+	display:inline-block;
+	vertical-align:top;
+	
+}
+
+#formation, #skills {
+	width: 30.78%;
+	height: 38em;
+}
+
+#professional_experience, #hobbies	 {
+	width: 30.78%;
+	height: 14.5em;
+}
