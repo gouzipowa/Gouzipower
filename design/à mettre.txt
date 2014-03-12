@@ -1,0 +1,2 @@
+- le CSS général
+- les images qui seront toujours affichées, le bakground (à placer dans un dossier "src")
