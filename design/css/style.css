@@ -142,7 +142,7 @@ nav a:hover, nav a:active, nav a:focus {
 }
 
 .this_page {
-	background: url('../images/background/red_gradient.png');
+	background: url('../src/img/background/red_gradient.png');
 	border: 1px solid white;
 	border-radius: 5px;
 }
@@ -150,7 +150,7 @@ nav a:hover, nav a:active, nav a:focus {
 
 .red_button {
 	height: 1.4em;
-	background: url('../images/background/red_gradient.png') repeat-x;
+	background: url('../src/img/background/red_gradient.png') repeat-x;
 	border: 1px solid white;
 	border-radius: 5px;
 	text-decoration: none;
@@ -168,7 +168,7 @@ nav a:hover, nav a:active, nav a:focus {
 	height: 12em;
 	width: 79.7em;
 	border-radius: 5px;
-	background: url('../images/logos/bann_teso2.jpg') no-repeat ;
+	background: url('../src/img/bann_teso2.jpg') no-repeat ;
 	position: relative;
 	margin-bottom: 20px;
 	border: 3px white outset;

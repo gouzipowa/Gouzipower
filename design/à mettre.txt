@@ -1,2 +1,2 @@
 - le CSS général
-- les images qui seront toujours affichées, le bakground (à placer dans un dossier "src")
+- les images qui seront toujours affichées, le background (à placer dans un dossier "src")

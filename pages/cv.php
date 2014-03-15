@@ -3,50 +3,32 @@
 	<head>
 		<meta charset = "utf-8"/>
 		<title>Gouzipower</title>
-		<link rel = "stylesheet" href = "style.css"/>
-		<link rel = "stylesheet" href = "cv.css"/>
+		<link rel = "stylesheet" href = "../design/css/style.css"/>
+		<link rel = "stylesheet" href = "../design/css/cv.css"/>
 		<!--[if lt IE 9]>
 			<script	src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
 		<![endif]-->
 		<!--[if lte IE 7]>
-			<link rel="stylesheet" href="style_ie.css" />
+			<link rel="stylesheet" href="../design/css/style_ie.css" />
 		<![endif]-->
 	</head>
 	
 	<body>
 		<div id = "main_wrapper">
 			<header>
-				<div id = "main_title">
-					<img src = "../images/logos/chat.jpg" alt = "" id = "logo" width = "80" height = "70"/>
-					<h1>Gouzipower</h1>
-					<h2>Projects passed, current and future</h2>
-				</div>
-				<div id = "login_section">
-					<form method = "post" action = "login.php">
-						<p>
-							<label for "pseudo">Pseudo:</label>
-							<input type = "text" name = "pseudo" id = "pseudo"/>
-							
-							<label for "password">Password:</label>
-							<input type = "password" name = "password" id = "password"/>
-							
-							<input type = "button" name = "login" value = "Login" class = "red_button"/>
-
-							<input type = "button" name = "create_account" value = "Create an account" class = "red_button"/>
-						</p>
-						
-					</form>
-				</div>
+				<?php
+					include('header.php');
+				?>
 				<nav>
 					<ul>
 						<div>
-							<li><a href = "index.html">Home</a></li>
+							<li><a href = "index.php">Home</a></li>
 							<li><a href = "#" class = "this_page">CV</a></li>
 						</div>
 						
 						<div>
-							<li><a href = "notions.html">Notions</a></li>
-							<li><a href = "contact.html">Contact</a></li>
+							<li><a href = "notions.php">Notions</a></li>
+							<li><a href = "contact.php">Contact</a></li>
 						</div>
 					</ul>	
 				</nav>
@@ -61,14 +43,14 @@
 				</div>
 				<a href = "http://www.millenium.org/The-Elder-Scrolls-Online/eso/guides/teso-les-ancres-noires-mmo-elder-scrolls-online-anchor-103237" class = "red_button" id = "banner_button">
 					Read the article
-					<img src = "../images/logos/right_arrow.png" alt = "" width = "10" height = "10"/>
+					<img src = "../design/src/img/icons/right_arrow.png" alt = "" width = "10" height = "10"/>
 				</a>
 			</div>
 			
 			<section>
 				<article id ="formation">
 					<div class = "article_title_block">
-						<img src = "../images/logos/ico_school.jpg" alt = "Catégorie formation" class = "ico_category" width = "80" height = "80"/>						
+						<img src = "../src/images/logos/ico_school.jpg" alt = "Catégorie formation" class = "ico_category" width = "80" height = "80"/>						
 					</div>
 					<div class = "article_title_block">
 						<h1>Formation</h1>
@@ -85,7 +67,7 @@
 				</article>
 				<article id ="skills">
 					<div class = "article_title_block">
-						<img src = "../images/logos/ico_skills.jpg" alt = "Catégorie compétences" class = "ico_category" width ="80" height = "80"/>
+						<img src = "../src/images/logos/ico_skills.jpg" alt = "Catégorie compétences" class = "ico_category" width ="80" height = "80"/>
 					</div>
 					<div class = "article_title_block">
 						<h1>Compétences</h1>
@@ -113,7 +95,7 @@
 				</article>
 				<aside>
 					<h1>General</h1>
-					<img src = "../images/logos/bubble_arrow.png" alt = "" id = "bubble_arrow" width = "12" height = "20"/>
+					<img src = "../design/src/img/icons/bubble_arrow.png" alt = "" id = "bubble_arrow" width = "12" height = "20"/>
 					<p>
 						Please to meet you, honorable visitor. We strongly hope that you'll enjoy these pages.
 					</p>
@@ -123,12 +105,12 @@
 					<p>
 						Here a picture of my room-mate :
 						<br/>
-						<img src = "../images/my_pictures/lama.png" width = "400"/>
+						<img src = "../src/images/pictures/lama.png" width = "400"/>
 					</p>
 				</aside>
 				<article id ="professional_experience">
 					<div class = "article_title_block">
-						<img src = "../images/logos/ico_business.jpg" alt = "Catégorie business" class = "ico_category" width = "80" height = "80"/>
+						<img src = "../src/images/logos/ico_business.jpg" alt = "Catégorie business" class = "ico_category" width = "80" height = "80"/>
 					</div>
 					<div class = "article_title_block">
 						<h1>Expérience professionnelle</h1>
@@ -141,7 +123,7 @@
 				</article>
 				<article id ="hobbies">
 					<div class = "article_title_block">
-						<img src = "../images/logos/ico_hobbies.jpg" alt = "Catégorie Hobbies" class = "ico_category" width = "80" height = "80"/>
+						<img src = "../src/images/logos/ico_hobbies.jpg" alt = "Catégorie Hobbies" class = "ico_category" width = "80" height = "80"/>
 					</div>
 					<div class = "article_title_block">
 						<h1>Hobbies</h1>
@@ -154,35 +136,9 @@
 				</article>
 			</section>
 			<footer>
-				<div id = "quotation">
-					<h1>My last quotation</h1>
-					<p>Two bees or not two bees, that is the question</p>
-					<p>The  23 february at 23h51</p>
-				</div>
-				<div id = "my_pictures">
-					<h1>My pictures</h1>
-					<p>
-						<img src = "../images/my_pictures/Chrome_logo.png" alt = "Picture" width = "60" height = "60"/>
-						<img src = "../images/my_pictures/Aperture_logo.png" alt = "Picture" width = "60" height = "60"/>
-						<img src = "../images/my_pictures/virtualdj.png" alt = "Picture" width = "60" height = "60"/>
-						<img src = "../images/my_pictures/Earth_on_ice_and_fire.png" alt = "Picture" width = "60" height = "60"/>
-					</p>
-				</div>
-				<div id = "future_projects">
-					<h1>Future projects</h1>
-					<ul>
-						<li><a href = "#">Learn the javascript</a></li>
-						<li><a href = "#">Deepen the HTML & CSS notions</a></li>
-						<li><a href = "#">Practice the C</a></li>
-						<li><a href = "#">Deepen the C# notions</a></li>
-					</ul>
-				</div>
-			<div id = "copyright">
-				<p></p>
-				<hr/>
-				<p>All rights reserved - Copyright Gouzipower</p>
-			</div>
-			
+				<?php 
+					include('footer.php');
+				?>			
 			</footer>
 		</div>
 	</body>

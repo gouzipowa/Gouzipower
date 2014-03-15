@@ -3,7 +3,7 @@
 	<head>
 		<meta charset = "utf-8"/>
 		<title>Gouzipower</title>
-		<link rel = "stylesheet" href = "style.css"/>
+		<link rel = "stylesheet" href = "../design/css/style.css"/>
 		<!--[if lt IE 9]>
 			<script	src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
 		<![endif]-->	
@@ -11,23 +11,22 @@
 			<link rel = "stylesheet" href = "style_ie.css"/>
 		</![endif]-->
 	</head>
-	
 	<body>
 		<div id = "main_wrapper">
 			<header>
-				<?php>
-					include("");
-				</?php>
+				<?php
+					include('header.php');
+				?>
 				<nav>
 					<ul>
 						<div>
 							<li><a href = "#" class = "this_page">Home</a></li>
-							<li><a href = "cv.html">CV</a></li>
+							<li><a href = "cv.php">CV</a></li>
 						</div>
 						
 						<div>
-							<li><a href = "notions.html">Notions</a></li>
-							<li><a href = "contact.html">Contact</a></li>
+							<li><a href = "notions.php">Notions</a></li>
+							<li><a href = "contact.php">Contact</a></li>
 						</div>
 					</ul>	
 				</nav>				
@@ -42,14 +41,14 @@
 				</div>
 				<a href = "http://www.millenium.org/The-Elder-Scrolls-Online/eso/guides/teso-les-ancres-noires-mmo-elder-scrolls-online-anchor-103237" class = "red_button" id = "banner_button">
 					Read the article
-					<img src = "../images/logos/right_arrow.png" alt = "" width = "10" height = "10"/>
+					<img src = "../design/src/img/icons/right_arrow.png" alt = "" width = "10" height = "10"/>
 				</a>
 			</div>
 			
 			<section>
 				<article>
 					<div>
-						<img src = "../images/logos/ico_travel.jpg" alt = "Catégorie voyage" class = "ico_category" width = "80" height = "80"/>
+						<img src = "../src/images/logos/ico_travel.jpg" alt = "Catégorie voyage" class = "ico_category" width = "80" height = "80"/>
 						<h1>	
 							Je suis un grand voyageur
 						</h1>					
@@ -73,9 +72,9 @@
 				</article>
 				<aside>
 					<h1>A propos de l'auteur</h1>
-					<img src = "../images/logos/bubble_arrow.png" alt = "" id = "bubble_arrow" width = "12" height = "20"/>
+					<img src = "../design/src/img/icons/bubble_arrow.png" alt = "" id = "bubble_arrow" width = "12" height = "20"/>
 					<p id = "picture_gouzi">
-						<img src = "../images/logos/chat.jpg" alt = "Photo de Gouzipower" width = "80" height = "70"/>
+						<img src = "../design/src/img/icons/chat.jpg" alt = "Photo de Gouzipower" width = "80" height = "70"/>
 					</p>
 					<p>
 						Laissez-moi le temps de me présenter : je m'appelle Gouzipower, je suis né un 31 janvier 1991.
@@ -86,35 +85,9 @@
 				</aside>
 			</section>
 			<footer>
-				<div id = "quotation">
-					<h1>My last quotation</h1>
-					<p>Two bees or not two bees, that is the question</p>
-					<p>The  23 february at 23h51</p>
-				</div>
-				<div id = "my_pictures">
-					<h1>My pictures</h1>
-					<p>
-						<img src = "../images/my_pictures/Chrome_logo.png" alt = "Picture" width = "60" height = "60"/>
-						<img src = "../images/my_pictures/Aperture_logo.png" alt = "Picture" width = "60" height = "60"/>
-						<img src = "../images/my_pictures/virtualdj.png" alt = "Picture" width = "60" height = "60"/>
-						<img src = "../images/my_pictures/Earth_on_ice_and_fire.png" alt = "Picture" width = "60" height = "60"/>
-					</p>
-				</div>
-				<div id = "future_projects">
-					<h1>Future projects</h1>
-					<ul>
-						<li><a href = "#">Learn the javascript</a></li>
-						<li><a href = "#">Deepen the HTML & CSS notions</a></li>
-						<li><a href = "#">Practice the C</a></li>
-						<li><a href = "#">Deepen the C# notions</a></li>
-					</ul>
-				</div>
-			<div id = "copyright">
-				<p></p>
-				<hr/>
-				<p>All rights reserved - Copyright Gouzipower</p>
-			</div>
-			
+				<?php 
+					include('footer.php');
+				?>			
 			</footer>
 		</div>
 	</body>
